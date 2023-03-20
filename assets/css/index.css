@@ -1,0 +1,233 @@
+/* Definir fontes personalizadas */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+}
+
+/* Definir estilos para o corpo */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Definir estilos para o cabeçalho */
+.banner {
+  background-color: #1a2c41;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #f9bc60;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e6a050;
+  cursor: pointer;
+}
+
+/* Estilos para o conteúdo principal */
+#course-content {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+}
+
+.modules-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.module {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px;
+  text-align: left;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+.module span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0072c6;
+  margin-bottom: 20px;
+}
+
+/* Estilos para a seção "Transforme o mundo com a gente" */
+#transform-world {
+  background-color: #1a2c41;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#transform-world p {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+
+/* Estilos para a seção "Evolua e encare novos desafios profissionais" */
+#evolve-section {
+  background-color: #0072c6;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#evolve-section h2 {
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+#evolve-section p {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+#evolve-section button {
+  background-color: #fff;
+  border: none;
+  color: #0072c6;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#evolve-section button:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+  color: #0072c6;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #1a2c41;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Estilos para as classes responsivas */
+
+@media screen and (max-width: 768px) {
+  .banner-content {
+    padding: 0 30px;
+  }
+
+  .logo img {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .module {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  /* Estilos para o cabeçalho em dispositivos móveis */ .logo img { width: 150px; }
+
+  h1 { font-size: 30px; }
+
+  p { font-size: 16px; }
+
+  button { font-size: 16px; }
+
+  /* Estilos para a seção "Transforme o mundo com a gente" em dispositivos móveis */ #transform-world p { font-size: 20px; }
+
+  /* Estilos para a seção "Evolua e encare novos desafios profissionais" em dispositivos móveis */ #evolve p { font-size: 20px; }
+
+  .card { max-width: 300px; }
+
+  .card h3 { font-size: 24px; }
+
+  .card p { font-size: 16px; }
+
+  }
+
