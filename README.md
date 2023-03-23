@@ -1,22 +1,30 @@
-# Desafio 01: Criando sua primeira Landing Page com HTML e CSS
+# CSS Web Developer Training Challenge
 
-Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
-as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
+This is the repository of my final project from the CSS Web Developer Training course by Digital Innovation One. The project consists of creating a responsive website, using HTML and CSS, with the theme of presenting DIO's CSS track.
 
-[Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
+## How to run the project?
 
-![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
+To run the project, just clone the repository and open the `index.html` file in your preferred browser.
 
-Para você realizar o desafio, basta fazer um **fork** para o seu GitHub e começar a mexer no projeto.
-Dentro da pasta *main*, você vai encontrar todas as imagens e o arquivo HTML, contendo a estrutura básica da sua página, faltando apenas
-realizar a estilização da sua página. É necessário que você faça toda a parte responsável por interligar sua página HTML com suas folhas
-de estilo para que o resultado da estilização funcione.
+bash Copy code
 
-[Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6) contendo o protótipo do desafio para
-que você possa se basear.
+`git clone https://github.com/your-user/your-repository.git`
 
-*Observações: para aplicar os textos em gradiente, utilize a propriedade CSS background-clip, porém, para funcionar em alguns navegadores,
-é necessário utilizar a propriedade -webkit-background-clip: text;*
+## Project description
 
-Caso tenha alguma dúvida, ou queira comparar o resultado do desafio que você fez, nós temos o site finalizado na branch *final*. Basta alterar a branch do projeto
-utilizando o comando `git checkout final` no seu terminal.
+The project was developed using the mobile first approach and has a modern and clean layout, with shades of navy blue and complementary colors. The home page consists of a banner with a logo, title, description and call-to-action button for registration. Just below, there is a section with information about the course, divided into three modules. Next, there is a section with a call to transform the world, followed by a section with information about professional challenges that may be faced after completing the course. Finally, the footer features the DIO logo and a link to register on the platform.
+
+## Technologies used
+
+- HTML
+- CSS
+
+## Author
+
+Name: Bruno Felipe Ribeiro Paulon
+
+LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/bruno-paulon/)
+
+## Thanks
+
+I would like to thank Digital Innovation One for the opportunity to learn and improve my CSS skills and the development community for sharing knowledge and inspiration.
