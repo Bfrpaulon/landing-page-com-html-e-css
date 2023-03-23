@@ -2,6 +2,11 @@
 
 This is the repository of my final project from the CSS Web Developer Training course by Digital Innovation One. The project consists of creating a responsive website, using HTML and CSS, with the theme of presenting DIO's CSS track.
 
+## Demonstration 
+![FireShot Capture 001 - CSS Profissional - Aprenda a criar sites incríveis do zero com a DIO_ - 5500-bfrpaulon-landingpageco-w8skb3s6kzs ws-us92 gitpod io](https://user-images.githubusercontent.com/122818137/227318153-7c1ca554-22db-48bb-89f2-c109be5deaae.png)
+![mobile](https://user-images.githubusercontent.com/122818137/227318159-b27ef1c2-7c7c-409d-bbde-7be2d0ab0553.png)
+
+
 ## How to run the project?
 
 To run the project, just clone the repository and open the `index.html` file in your preferred browser.
